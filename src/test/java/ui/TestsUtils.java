@@ -10,6 +10,8 @@ public class TestsUtils {
 
     public static final int PAGE_LOADING_TIMEOUT = 10;
     public static final int WEB_ELEMENTS_INTERACTION_TIMEOUT = 10;
+    public static final String PROFILE_IMAGE_PATH = "/home/data/photo_for_test_user.jpg";
+    public static final String PROFILE_IMAGE_FILE_NAME = "photo_for_test_user.jpg";
 
     public static WebDriver initializeDriver() {
         System.setProperty("webdriver.chrome.driver", System.getenv("CHROME_DRIVER_PATH"));

@@ -38,8 +38,8 @@ public class UploadUserPhotoTest {
 
         assertEquals("no image uploaded", profilePage.getPhotoFileName());
 
-        profilePage.uploadProfileImage("/home/data/photo_for_test_user.jpg");
+        profilePage.uploadProfileImage(TestsUtils.PROFILE_IMAGE_PATH);
 
-        assertEquals("photo_for_test_user.jpg", profilePage.getPhotoFileName());
+        assertEquals(TestsUtils.PROFILE_IMAGE_FILE_NAME, profilePage.getPhotoFileName());
     }
 }
